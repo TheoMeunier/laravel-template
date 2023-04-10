@@ -53,7 +53,4 @@ USER www
 # Expose port 9000 and start php server
 EXPOSE 9000
 
-# Export port 5173 for vitejs
-EXPOSE 5173
-
 CMD ["php-fpm"]
